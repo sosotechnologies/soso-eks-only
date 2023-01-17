@@ -1,4 +1,4 @@
-# Terraform Settings Block
+# Terraform Settings
 terraform {
   required_version = ">= 1.0.0"
   required_providers {
@@ -9,7 +9,7 @@ terraform {
   }
 }
 
-# Terraform Provider Block
+# Terraform Provider
 provider "aws" {
   region = var.aws_region
 }
